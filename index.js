@@ -1,3 +1,7 @@
 function shout(string) {
-  return 'Hello'.toUpperCase() // 'HELLO!'
+  return string.toUpperCase() // 'HELLO!'
+}
+
+function whisper(string){
+  console.log(string.toUpperCase());
 }
